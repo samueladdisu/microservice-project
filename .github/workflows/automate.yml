@@ -22,8 +22,8 @@ jobs:
       - run: docker tag udagram-reverseproxy samueladdisu/udagram-reverseproxy
       - run: docker tag udagram-api-feed samueladdisu/udagram-api-feed
       - run: docker tag udagram-api-user samueladdisu/udagram-api-user
-      - run: docker tag udagram-frontend samueladdisu/udagram-frontend:local
+      - run: docker tag udagram-frontend samueladdisu/udagram-frontend:v8
       - run: docker push samueladdisu/udagram-reverseproxy
       - run: docker push samueladdisu/udagram-api-feed
       - run: docker push samueladdisu/udagram-api-user
-      - run: docker push samueladdisu/udagram-frontend:local
+      - run: docker push samueladdisu/udagram-frontend:v8

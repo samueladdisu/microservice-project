@@ -45,3 +45,4 @@ venv/
 *set_env
 deployments
 *deployments
+configuration/
