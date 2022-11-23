@@ -2,9 +2,9 @@
 # DO NOT STORE YOUR CREDENTIALS INTO GIT
 export POSTGRES_USERNAME=samuel
 export POSTGRES_PASSWORD=18424325
-export POSTGRES_HOST=microservice-db.cnpsosmpqs9i.us-east-1.rds.amazonaws.com
+export POSTGRES_HOST=udagram-db1.casuzva3zuqu.us-east-1.rds.amazonaws.com
 export POSTGRES_DB=postgres
-export AWS_BUCKET=samuel-addisu-microservice-project
+export AWS_BUCKET=samuel-udagram-bucket
 export AWS_REGION=us-east-1
 export AWS_PROFILE=default
 export JWT_SECRET=testing
